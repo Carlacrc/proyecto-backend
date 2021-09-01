@@ -9,5 +9,3 @@ class Register(models.Model):
     email=models.EmailField()
     password=models.CharField(max_length=30)
     confirm_password=models.CharField(max_length=30)
-
-# AGREGANDO NUEVOS CAMBIOS jeje
